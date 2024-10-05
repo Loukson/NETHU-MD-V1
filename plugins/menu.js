@@ -4,7 +4,7 @@ const os = require("os")
 const {runtime} = require('../lib/functions')
 
 cmd({
-    pattern: "Loukson",
+    pattern: "menu",
     desc: "To get the menu.",
     react: "🍃",
     category: "main",
@@ -17,7 +17,7 @@ const voice = {
     menu: 'AUD-20240918-WA0013.mp3'
 }
 
-let Loukson = {
+let menu = {
 main: '',
 download: '',
 group: '',
